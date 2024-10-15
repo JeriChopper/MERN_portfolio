@@ -1,13 +1,26 @@
 // backend/config/db.js
+
+/**
+ * Database connection file
+ *
+ * This file defines the connection to the database
+ * 
+ * .env is used to store the MONGODB connection link.
+ * 
+ * 
+*/
+
+
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+import * as dotenv from 'dotenv';
 
 // Load environment variables from .env file
 dotenv.config();
 
 const connectDB = async () => {
+    const dbstring = process.env.URI;
     try {
-        await mongoose.connect("mongodb+srv://jerichokoskinen:oEchSygBg5rStSA7@portfoliodb.brct7.mongodb.net/?retryWrites=true&w=majority&appName=portfolioDB", {
+        await mongoose.connect(dbstring, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
