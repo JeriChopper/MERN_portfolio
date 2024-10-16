@@ -16,7 +16,7 @@ git clone https://github.com/JeriChopper/MERN_portfolio
 Go to the directory:
 cd MERN_portfolio
 
-Install Dependencies:
+Install Dependencies:  
 **Global**:
 - npm i
 
