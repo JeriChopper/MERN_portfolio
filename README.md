@@ -17,19 +17,19 @@ Go to the directory:
 cd MERN_portfolio
 
 Install Dependencies:
-- **Global**:
+**Global**:
 - npm i
 
-- **Backend**:  
+**Backend**:  
 - cd backend  
 - npm i  
 
-Client:  
-cd client  
-npm i  
+**Client**:  
+- cd client  
+- npm i  
 
 Now you can run the program with the command:  
-npm start
+- npm start
   
 
   
