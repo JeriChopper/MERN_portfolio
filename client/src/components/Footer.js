@@ -2,7 +2,7 @@
 // Inspiration for the Footer from here: https://medium.com/@racosta323/create-a-simple-footer-using-react-bootstrap-58c4371a4ade
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Make sure to import your icons
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
